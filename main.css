@@ -1,15 +1,21 @@
 * {
   box-sizing: border-box;
 }
+body,
+html {
+  width: 100%;
+}
 .container {
   width: 50%;
   background-color: #ded9d9;
   padding: 15px;
   border-radius: 10px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
+    margin-left: auto;
   }
 }
 label {
