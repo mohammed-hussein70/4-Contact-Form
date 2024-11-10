@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 50%;
+  background-color: #ded9d9;
+  padding: 15px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
+label {
+  font-size: 18px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 5px 0 15px 0;
+}
+button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    background-color: #45a049;
+  }
+}
